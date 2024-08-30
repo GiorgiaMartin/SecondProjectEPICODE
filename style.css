@@ -1,0 +1,49 @@
+
+
+
+
+
+*{box-sizing: border-box;
+}
+.bg-dark {
+    background-color: #141414!important;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.nav-element {
+    width: 100px;
+}
+main {
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-x: hidden;
+}
+
+#genre .dropdown-toggle, #genre .dropdown-menu {
+    border-radius: 0px!important;
+    
+}
+
+.movie-row img {
+    width: 100%;
+    position: relative;
+}
+
+.movie-row img:last-of-type~.movie-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.516);
+    position: absolute;
+    top: 0
+}
+
+.movie-card {
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
